@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+:root {
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+}
+* {
+  scroll-behavior: smooth;
+}
+.font-signature {
+  font-family: Great Vibes;
+}
+.btn:hover {
+  box-shadow: 0 0 5px cyan, 0 0 25px cyan, 0 0 50px cyan, 0 0 100px cyan,
+    0 0 200px cyan;
+}
+.gmail:hover {
+  background: cyan;
+  color: #081b29;
+  box-shadow: 0 0 20px cyan;
+}
+.boxShadow {
+  box-shadow: 0 0 5px cyan, 0 0 25px cyan;
+}
+.transform-hover {
+  transform: translateY(0);
+  transition: background 0.5s, transform 0.5s;
+}
+
+.transform-hover:hover {
+  transform: translateY(-20px);
+}
+@keyframes animate {
+  0% {
+    transform: scaleX(0);
+  }
+  100% {
+    transform: scaleX(1);
+  }
+}
+
+.animation {
+  animation: animate 1s cubic-bezier(1, 0, 0, 5) forwards;
+  transform-origin: left;
+}
+.animation1 {
+  animation: animate 1s 1s cubic-bezier(1, 0, 0, 5) forwards;
+  transform-origin: left;
+}
+.transform {
+  transform: translate(-50%, -50%) rotate(-90deg);
+}
+.progressbar {
+  dominant-baseline: middle;
+  text-anchor: middle;
+}
+.progressline span::after {
+  content: "90%";
+}
