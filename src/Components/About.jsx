@@ -11,7 +11,7 @@ function About() {
           About<span className="text-customCyan">Me</span>
         </h2>
 
-        <h4 className="text-3xl font-bold  mt-8">Frontend Developer</h4>
+        <h4 className="text-3xl font-bold  mt-8">MERN Developer</h4>
         <p className="text-xl mb-16 mt-8">
           I am a Passionate and innovative Full Stack Developer, eager to embark
           on a journey of continuous learning and growth. With a solid

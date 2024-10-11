@@ -80,7 +80,7 @@ function Contact() {
         </div>
       </div>
 
-      <div className="relative ">
+      <div className="relative mt-32">
         <form method="POST" id="form" onSubmit={onSubmit} className="space-y-4">
           <input
             className="border-none outline-none w-[90%] p-4 text-black text-base font-semibold mb-2 rounded-lg required"
