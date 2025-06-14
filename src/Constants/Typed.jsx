@@ -6,7 +6,7 @@ const TypedText = () => {
 
   useEffect(() => {
     const options = {
-      strings: ["Frontend Developer", "MERN Developer"],
+      strings: ["Web Developer", "MERN Stack Developer"],
       typeSpeed: 100,
       backSpeed: 100,
       backDelay: 1000,

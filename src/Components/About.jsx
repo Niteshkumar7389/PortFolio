@@ -13,12 +13,12 @@ function About() {
 
         <h4 className="text-3xl font-bold  mt-8">MERN Developer</h4>
         <p className="text-xl mb-16 mt-8">
-          I am a Passionate and innovative Full Stack Developer, eager to embark
-          on a journey of continuous learning and growth. With a solid
-          foundation in web development technologies, including HTML, CSS,
-          JAVASCRIPT, REACT, JAVA. I am committed to delivering high-quality
-          solutions that exceed expectations. Let's connect and explore
-          opportunities to innovate together!
+          I'm Nitesh Kumar Ojha, a passionate MERN Stack Developer with hands-on
+          experience in building full-stack web applications. I specialize in
+          creating responsive UIs with React.js and scalable backends using
+          Node.js, Express, and MongoDB. I enjoy turning complex problems into
+          clean, efficient solutions, and I'm always eager to learn new
+          technologies and contribute to impactful projects.
         </p>
         <a
           href="#"

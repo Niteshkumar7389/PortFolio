@@ -1,6 +1,6 @@
 import React from "react";
 import { FaPhoneAlt, FaLinkedinIn, FaWhatsapp } from "react-icons/fa";
-import { BiSolidSend } from "react-icons/bi";
+import { BiLogoGmail } from "react-icons/bi";
 import Swal from "sweetalert2";
 
 function Contact() {
@@ -60,7 +60,7 @@ function Contact() {
               <span>7999745668</span>
             </li>
             <li className="flex items-center font-semibold transition text-xl">
-              <BiSolidSend className="mr-2 text-customCyan" />
+              <BiLogoGmail className="mr-2 text-customCyan" />
               <span>niteshojha7389@gmail.com</span>
             </li>
           </ul>

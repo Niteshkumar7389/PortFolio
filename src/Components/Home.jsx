@@ -89,7 +89,7 @@ function Home() {
       <div className="relative flex flex-col lg:flex-row items-center justify-between pt-10 px-6 lg:px-16 text-white mt-8">
         <div className="max-w-xl sm:max-w-sm md:max-w-2xl md:h-screen lg:max-w-lg xl:max-w-xl ">
           <h3 className="text-2xl sm:text-3xl mt-2 font-bold animate-slideBottom">
-            Hello, It's Me
+            Hello, I'm
           </h3>
           <h1 className="text-4xl sm:text-5xl lg:text-6xl mt-2 font-bold animate-slideRight">
             Nitesh Kumar Ojha
@@ -98,9 +98,9 @@ function Home() {
             And I'm a <TypedText />
           </h3>
           <p className="text-lg sm:text-xl pt-6 sm:pt-8 animate-slideLeft">
-            I'm a Passionate and innovative Frontend Developer, eager to embark
-            on a journey of continuous learning and growth. With a solid
-            foundation in web development technologies.
+            MERN Stack Developer with a strong foundation in building scalable
+            and maintainable web applications and focus on delivering clean and
+            efficient code.
           </p>
 
           <div className="flex flex-wrap mt-6">
