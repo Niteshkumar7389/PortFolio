@@ -32,7 +32,7 @@ export default function Project() {
       id: 3,
       src: portfolio,
       title: "PortFolio",
-      link: "https://github.com/",
+      link: "https://port-folio-ivory-xi.vercel.app/",
       tech: "HTML | CSS | javaScript | React | Tailwind CSS",
       color: "green",
     },
