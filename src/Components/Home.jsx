@@ -1,5 +1,5 @@
 import React from "react";
-import resume from "../assets/NiteshResume.pdf";
+import resume from "../assets/Nitesh_Kumar_MERN_Developer.pdf";
 import TypedText from "../Constants/Typed";
 import logo from "../assets/3.jpg";
 import {
