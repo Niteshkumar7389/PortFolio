@@ -1,5 +1,6 @@
 import React from "react";
-import { FaHtml5, FaCss3, FaReact, FaJava, FaGitAlt } from "react-icons/fa";
+import { FaHtml5, FaCss3, FaReact, FaJava, FaGitAlt,FaNode, } from "react-icons/fa";
+import { SiExpress } from "react-icons/si";
 import { IoLogoJavascript } from "react-icons/io5";
 import { SiTailwindcss, SiMongodb } from "react-icons/si";
 import { CircularProgressbar, buildStyles } from "react-circular-progressbar";
@@ -65,22 +66,6 @@ function Skills() {
                 </div>
               </div>
             </div>
-            <div className="text-customCyan text-2xl  mx-4 sm:mx-28 my-0 mt-1">
-              <FaReact />
-              <div className="text-white text-lg mb-1">
-                <span className="text-lg font-medium animate-showText">
-                  REACT
-                </span>
-              </div>
-              <div className="relative w-full h-1 bg-black rounded-xl animation">
-                <div className="h-full bg-customCyan w-[80%] rounded-xl relative animation1">
-                  <span className="absolute top-[-20px] right-0 text-xs text-white bg-black px-1 rounded ">
-                    80%
-                  </span>
-                </div>
-              </div>
-            </div>
-
             <div className="text-white text-2xl  mx-4 sm:mx-28 my-0 mt-1">
               <FaJava />
               <div className="text-white text-lg mb-1 ">
@@ -104,9 +89,9 @@ function Skills() {
                 </span>
               </div>
               <div className="relative w-full h-1 bg-black rounded-xl animation">
-                <div className="h-full bg-customCyan w-[70%] rounded-xl relative animation1">
+                <div className="h-full bg-customCyan w-[90%] rounded-xl relative animation1">
                   <span className="absolute top-[-20px] right-0 text-xs text-white bg-black px-1 rounded">
-                    70%
+                    90%
                   </span>
                 </div>
               </div>
@@ -126,6 +111,52 @@ function Skills() {
                 </div>
               </div>
             </div>
+            <div className="text-green-400 text-2xl  mx-4 sm:mx-28 my-0 mt-1">
+              <SiExpress />
+              <div className="text-white text-lg mb-1 ">
+                <span className="text-lg font-medium animate-showText">
+                  EXPRESS
+                </span>
+              </div>
+              <div className="relative w-full h-1 bg-black rounded-xl animation">
+                <div className="h-full bg-customCyan w-[80%] rounded-xl relative animation1">
+                  <span className="absolute top-[-20px] right-0 text-xs text-white bg-black px-1 rounded">
+                    80%
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div className="text-customCyan text-2xl  mx-4 sm:mx-28 my-0 mt-1">
+              <FaReact />
+              <div className="text-white text-lg mb-1">
+                <span className="text-lg font-medium animate-showText">
+                  REACT
+                </span>
+              </div>
+              <div className="relative w-full h-1 bg-black rounded-xl animation">
+                <div className="h-full bg-customCyan w-[80%] rounded-xl relative animation1">
+                  <span className="absolute top-[-20px] right-0 text-xs text-white bg-black px-1 rounded ">
+                    80%
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div className="text-customCyan text-2xl  mx-4 sm:mx-28 my-0 mt-1">
+              <FaNode />
+              <div className="text-white text-lg mb-1">
+                <span className="text-lg font-medium animate-showText">
+                  NODE
+                </span>
+              </div>
+              <div className="relative w-full h-1 bg-black rounded-xl animation">
+                <div className="h-full bg-customCyan w-[80%] rounded-xl relative animation1">
+                  <span className="absolute top-[-20px] right-0 text-xs text-white bg-black px-1 rounded ">
+                    80%
+                  </span>
+                </div>
+              </div>
+            </div>
+
             <div className="text-orange-500 text-2xl  mx-4 sm:mx-28 my-0 mt-1">
               <FaGitAlt />
               <div className="text-white text-lg mb-1 ">
@@ -144,10 +175,10 @@ function Skills() {
           </div>
         </div>
         <div className="w-full">
-          <h1 className="text-3xl text-center font-semibold underline underline-offset-8 mb-12 mt-12 lg:mt-0">
+          <h1 className="text-3xl text-center font-semibold underline underline-offset-8 mb-40 mt-12 lg:mt-0">
             Professional Skills
           </h1>
-          <div className="grid grid-cols-2 ">
+          <div className="grid grid-cols-2">
             {skill.map((skill, index) => (
               <div key={index} className="flex flex-col items-center m-9">
                 <div className="w-24 h-24">

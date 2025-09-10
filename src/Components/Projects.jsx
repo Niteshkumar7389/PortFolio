@@ -1,5 +1,6 @@
 import React from "react";
 import CodeCraft from "../assets/projects/CodeCraft.png";
+import Virtual_Assistant from "../assets/projects/Assistant.png";
 import Talksy from "../assets/projects/Talksy.png";
 import myntra from "../assets/projects/myntra.png";
 import age from "../assets/projects/age.png";
@@ -22,10 +23,10 @@ export default function Project() {
     },
     {
       id: 2,
-      src: CodeCraft,
-      title: "CodeCraft",
-      link: "https://code-craft-six.vercel.app/",
-      tech: "HTML | CSS | javaScript | React | Tailwind CSS",
+      src: Virtual_Assistant,
+      title: "Virtual Assistant",
+      link: "https://virtual-assistant-lqqy.onrender.com/",
+      tech: "MONGODB | EXPRESS | REACT | NODE | TAILWIND | CLOUDINARY",
       color: "green",
     },
     {
@@ -38,6 +39,14 @@ export default function Project() {
     },
     {
       id: 4,
+      src: CodeCraft,
+      title: "CodeCraft",
+      link: "https://code-craft-six.vercel.app/",
+      tech: "HTML | CSS | javaScript | React | Tailwind CSS",
+      color: "green",
+    },
+    {
+      id: 5,
       src: myntra,
       title: "Myntra Clone",
       link: "https://niteshkumar7389.github.io/Myntra_Clone/",
@@ -45,7 +54,7 @@ export default function Project() {
       color: "green",
     },
     {
-      id: 5,
+      id: 6,
       src: todo,
       title: "TODO",
       link: "https://niteshkumar7389.github.io/TODO_in_React/",
@@ -53,7 +62,7 @@ export default function Project() {
       color: "green",
     },
     {
-      id: 6,
+      id: 7,
       src: simon,
       title: "Simon Says Game",
       link: "https://niteshkumar7389.github.io/Simon-Says-Game/",
@@ -61,7 +70,7 @@ export default function Project() {
       color: "green",
     },
     {
-      id: 7,
+      id: 8,
       src: rockpaper,
       title: "Rock Paper Scissors",
       link: "https://niteshkumar7389.github.io/Rock_paper_scissors/",
@@ -69,7 +78,7 @@ export default function Project() {
       color: "green",
     },
     {
-      id: 8,
+      id: 9,
       src: age,
       title: "Age Calculator",
       link: "https://niteshkumar7389.github.io/Age_Calculator/",
@@ -77,7 +86,7 @@ export default function Project() {
       color: "green",
     },
     {
-      id: 9,
+      id: 10,
       src: pixelated,
       title: "pixelated Professor",
       link: "https://niteshkumar7389.github.io/Age_Calculator/",
